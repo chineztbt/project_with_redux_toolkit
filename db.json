@@ -1,0 +1,21 @@
+{
+    "users":[
+        {
+            "id":"1", 
+            " name" :"chahinez",
+            "email ":"chahineztabti@gmail.com"
+        },
+
+        {
+            "id":"2", 
+            " name" :"leiticia",
+            "email ":"leiticia@gmail.com"
+        },
+
+        {
+            "id":"3", 
+            " name" :"karime",
+            "email ":"karima@gmail.com"
+        }
+    ]
+}
