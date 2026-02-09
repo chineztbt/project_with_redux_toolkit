@@ -1,21 +1,24 @@
 {
-    "users":[
-        {
-            "id":"1", 
-            " name" :"chahinez",
-            "email ":"chahineztabti@gmail.com"
-        },
-
-        {
-            "id":"2", 
-            " name" :"leiticia",
-            "email ":"leiticia@gmail.com"
-        },
-
-        {
-            "id":"3", 
-            " name" :"karime",
-            "email ":"karima@gmail.com"
-        }
-    ]
+  "users": [
+    {
+      "id": "1",
+      "name": "chahinez",
+      "email": "chahineztabti@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "leiticia",
+      "email": "leiticia@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "karima",
+      "email": "karima@gmail.com"
+    },
+    {
+      "id": "8ed0",
+      "name": "chahi",
+      "email": "pkofj@gmail.com"
+    }
+  ]
 }

@@ -16,11 +16,11 @@ const store = configureStore({
 root.render(
   <React.StrictMode>
     <Provider store={store}> 
-      {/* Il diffuse le contexte globale de l'app */}
-    <App />
+      
+       <App />
     </Provider>
   </React.StrictMode>
 );
-
+/* Il diffuse le contexte globale de l'app */
 
 

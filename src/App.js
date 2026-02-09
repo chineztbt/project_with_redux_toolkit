@@ -11,12 +11,12 @@ function App() {
   return (
     // pour gérer la navigation coté navigateur 
     <BrowserRouter>
-    <Routes>
-    <Route path="/" element={<Home/>}/>
-    <Route path="/add" element={<Create/>}/>
-    <Route path="/edit/:id" element={<Update/>}/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/add" element={<Create/>}/>
+        <Route path="/edit/:id" element={<Update/>}/>
 
-    </Routes>
+      </Routes>
     </BrowserRouter>
   );
 }

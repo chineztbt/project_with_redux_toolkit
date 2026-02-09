@@ -4,6 +4,17 @@ export const fetchUsers = createAsyncThunk('users/fetchUsers',async()=>{
  const response= await fetch(apiUrl)
 return await response.json()
 })
+export const addUsers = createAsyncThunk('users/addUsers',async(user)=>{
+ const response= await fetch(apiUrl,{
+    method:'POST',
+    headers:{
+        'Content-type':'application/json',
+    },
+     body: JSON.stringify(user)
+ })
+return await response.json()
+})
+
 const userSlice = createSlice({
     name : 'users',
     initialState : {
@@ -27,7 +38,14 @@ const userSlice = createSlice({
             state.status = 'failed'
             state.error = action.error.message
        })
+       .addCase(addUsers.fulfilled,(state,action)=>{
+            state.status = 'succesful'
+            state.list.push(action.payload)
+             // succes
+        })
        
     }
 })
 export default userSlice.reducer
+// point darret
+// les bebliotheques
